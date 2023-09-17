@@ -1,0 +1,332 @@
+header {
+    background-color: #0d135e;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 70px;
+}
+
+nav img {
+    width: 30px; 
+    height: auto; 
+    vertical-align: bottom; 
+    margin-right: 5px; 
+}
+
+.white-pin {
+    filter: grayscale(100%) brightness(0) invert(1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.introdução-carro {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.introdução-carro p {
+    flex: 1;
+    font-size: 18px;
+    color: #333;
+}
+
+.detalhes-carro {
+    text-align: left;
+    padding: 20px;
+}
+
+.detalhes-carro h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.detalhes-carro h3 strong {
+    color: #000; 
+}
+
+.detalhes-carro p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#barra-de-produtos {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    flex: 1;
+    max-width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.product p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.product {
+    border: 1px solid #0d135e;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #0d135e;
+}
+
+.product p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.product a {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0d135e;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.product a:hover {
+    background-color: #0d135e;
+}
+
+#gallery {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+}
+
+.gallery-item {
+    flex: 1;
+    max-width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#historia {
+    text-align: center;
+    padding: 50px 0;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#premios-certificacoes {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.certification {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.certification h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.certification p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+footer {
+    background-color: #0d135e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo-subaru {
+    flex: 1;
+    text-align: left;
+}
+
+.logo-subaru img {
+    max-width: 100px;
+    height: auto;
+    display: inline-block;
+}
+
+.contato {
+    flex: 1;
+    text-align: right;
+    color:#ffffff
+}
+
+.contato p {
+    margin: 0;
+}
+
+.botoes-navegação {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botoes-navegação button {
+    background-color: #0d135e;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}
+
